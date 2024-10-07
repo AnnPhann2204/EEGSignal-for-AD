@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: sklearn-rvm
+Version: 0.1.1
+Summary: An scikit-learn style implementation of Relevance Vector Machines (RVM).
+Home-page: https://github.com/Mind-the-Pineapple/sklearn-rvm
+Maintainer: Pedro F. da Costa, Walter Hugo Lopez Pinaya
+Maintainer-email: pedro.ferreira_da_costa@kcl.ac.uk, walter.diaz_sanz@kcl.ac.uk
+License: new BSD
+Download-URL: https://github.com/Mind-the-Pineapple/sklearn-rvm
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-gallery ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: numpydoc ; extra == 'docs'
+Requires-Dist: matplotlib ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+
+.. -*- mode: rst -*-
+
+|Travis|_ |Codecov|_ |CircleCI|_ |ReadTheDocs|_
+
+.. |Travis| image:: https://travis-ci.com/Mind-the-Pineapple/sklearn-rvm.svg?branch=master
+.. _Travis: https://travis-ci.com/Mind-the-Pineapple/sklearn-rvm
+
+.. |Codecov| image:: https://codecov.io/gh/Mind-the-Pineapple/sklearn-rvm/branch/master/graph/badge.svg
+.. _Codecov: https://codecov.io/gh/Mind-the-Pineapple/sklearn-rvm
+
+.. |CircleCI| image:: https://circleci.com/gh/Mind-the-Pineapple/sklearn-rvm.svg?style=shield&circle-token=:circle-token
+.. _CircleCI: https://circleci.com/gh/Mind-the-Pineapple/sklearn-rvm
+
+.. |ReadTheDocs| image:: https://readthedocs.org/projects/sklearn-rvm/badge/?version=latest
+.. _ReadTheDocs: https://sklearn-rvm.readthedocs.io/en/latest/?badge=latest
+
+Sklearn-RVM
+===========
+
+
+Installation
+------------
+
+.. code:: bash
+
+    pip install sklearn-rvm
+
+
+Requirements
+------------
+.. _Scikit-Learn: https://scikit-learn.org/
+
+- Python (>= 3.5)
+- Scikit-Learn_ (>= 0.21)
+
+Documentation
+-------------
+
+.. _documentation: https://sklearn-rvm.readthedocs.io/en/latest/index.html
+
+Refer to the documentation_ to modify the template for your own scikit-learn
+contribution.
+
