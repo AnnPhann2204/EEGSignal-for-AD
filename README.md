@@ -1,4 +1,27 @@
-# Alzheimer-s-Classification-EEG
-## Overview:
-Alzheimer’s Disease (AD) is the most common neurodegenerative disease. It is typically late onset and can develop substantially before diagnosable symptoms appear. Electroencephalogram (EEG) could potentially serve as a noninvasive diagnostic tool for AD.  Machine learning can be helpful in making inferences about changes in frequency bands in EEG data and how these changes relate to neural function. The EEG data was sourced from 2014 paper titled Alzheimer’s disease patients classification through EEG signals processing by Fiscon et al. There were patients with AD, mild cognitive impairment (MCI), and healthy controls. The data was already preprocessed using a fast fourier transform (FFT) to take the data from the time domain to the frequency domain. There were differing levels of effectiveness in terms of classification but generally, Fisher’s discriminant analysis (FDA), relevance vector machine, and random forest approaches were most successful. Due to inconsistent feature importances in different models, conclusions about important frequency bands for classification were not able to be made at this time. Similarly, different frequencies were not able to be localized to different regions of the brain. Further research is necessary to develop more interpretable models for classification. 
+# Alzheimer's Disease Classification Using EEG Data
 
+This repository is a modification of the original repository by **tsyoshihara** and builds upon the research outlined in the paper **"Alzheimer’s disease patients classification through EEG signals processing"** by Fiscon et al. (2018). The work combines EEG signal processing with supervised machine learning methods to classify Alzheimer's disease patients.
+
+## Dataset
+The EEG dataset used in this project was sourced from Fiscon et al.’s 2014 paper and consists of 3 classes: **AD**: Alzheimer's disease, **MCI**: Mild Cognitive Impairment, **HC**: Healthy Control
+
+### Data Processing
+The data is preprocessed using a **Fast Fourier Transform (FFT)** to convert the EEG signals from the time domain to the frequency domain. Each sample contains EEG signals recorded from multiple electrodes and is transformed for classification.
+
+## Classification Models
+1. **Fisher’s Discriminant Analysis (FDA)**
+2. **Relevance Vector Classifier (RVC)**
+3. **Random Forest (RF)**
+4. **Logistic Regression (LR)**
+
+## Modifications and Improvements
+This repository includes the following modifications and improvements to the original code:
+- Updated packages to ensure compatibility with modern Python versions.
+- Saved the visual results of classification (e.g., ROC curves, confusion matrices) as images for easy visualization.
+
+## Results
+The results from the classification models are saved in the `/new_image` folder as images and include: Confusion matrices, ROC curves for each classifier
+
+## Acknowledgments
+- Original repository by [tsyoshihara]([https://github.com/tsyoshihara](https://github.com/tsyoshihara))
+- The dataset and preprocessing methods are based on the work by Fiscon et al. (2018) - **Fiscon, G., et al. (2018). Combining EEG signal processing with supervised methods for Alzheimer’s patients classification. BMC Medical Informatics and Decision Making.**
