@@ -1,6 +1,6 @@
 # Alzheimer's Disease Classification Using EEG Data
 
-This repository is a modification of the original repository by **tsyoshihara** and builds upon the research outlined in the paper **"Alzheimer’s disease patients classification through EEG signals processing"** by Fiscon et al. (2018). The work combines EEG signal processing with supervised machine learning methods to classify Alzheimer's disease patients.
+This repository is a modification of the original repository by **tsyoshihara**. The work combines EEG signal processing with supervised machine learning methods to classify Alzheimer's disease patients.
 
 ## Dataset
 The EEG dataset used in this project was sourced from Fiscon et al.’s 2014 paper and consists of 3 classes: **AD**: Alzheimer's disease, **MCI**: Mild Cognitive Impairment, **HC**: Healthy Control
@@ -23,5 +23,5 @@ This repository includes the following modifications and improvements to the ori
 The results from the classification models are saved in the `/new_image` folder as images and include: Confusion matrices, ROC curves for each classifier
 
 ## Acknowledgments
-- Original repository by [tsyoshihara]([https://github.com/tsyoshihara](https://github.com/tsyoshihara))
+- Original repository: https://github.com/tsyoshihara/Alzheimer-s-Classification-EEG
 - The dataset and preprocessing methods are based on the work by Fiscon et al. (2018) - **Fiscon, G., et al. (2018). Combining EEG signal processing with supervised methods for Alzheimer’s patients classification. BMC Medical Informatics and Decision Making.**
