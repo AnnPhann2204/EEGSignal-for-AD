@@ -24,6 +24,7 @@ This repository includes the following modifications and improvements to the ori
 
 ## Results
 The results from the classification models are saved in the `/new_image` folder as images and include: Confusion matrices, ROC curves for each classifier
+![image](https://github.com/user-attachments/assets/8a7e97e1-77b5-4f21-b5f7-e34315bd7913)
 
 ## Acknowledgments
 - Original repository: https://github.com/tsyoshihara/Alzheimer-s-Classification-EEG
