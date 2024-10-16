@@ -1,5 +1,8 @@
 # Alzheimer's Disease Classification Using EEG Data
 
+## Update: 
+Link Google Colab for new data: https://colab.research.google.com/drive/1IX_4SG4O9QPjYyclkc1Jh1M-X1yegcPB?usp=sharing
+
 This repository is a modification of the original repository by **tsyoshihara**. The work combines EEG signal processing with supervised machine learning methods to classify Alzheimer's disease patients.
 
 ## Dataset
